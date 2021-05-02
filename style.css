@@ -1,0 +1,106 @@
+/*font-family: 'Lexend Deca', sans-serif;
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;*/
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 95%);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.main-box{
+  width: 870px;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.5rem;
+}
+
+.orange-box{
+  width: 290px;
+  height: 450px;
+  background-color:  hsl(31, 77%, 52%);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.green-box{
+  width: 290px;
+  height: 450px;
+  background-color: hsl(184, 100%, 22%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.dgreen-box{
+  width: 290px;
+  height: 450px;
+  background-color: hsl(179, 100%, 13%);
+  position: absolute;
+  top: 50%;
+  right:0;
+  transform: translate(0, -50%);
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  color:hsl(0, 0%, 95%);
+}
+
+p{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5rem;
+}
+
+a{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 50rem;
+  padding: 10px 35px;
+}
+
+.obtn{
+  margin-top: 90px;
+}
+.gbtn{
+  margin-top: 90px;
+}
+.dgbtn{
+  margin-top: 90px;
+}
+
+.obtn a{
+  color: hsl(31, 77%, 52%);
+}
+.gbtn a{
+  color: hsl(184, 100%, 22%);
+}
+.dgbtn a{
+  color: hsl(179, 100%, 13%);
+}
